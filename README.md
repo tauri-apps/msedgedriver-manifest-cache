@@ -1,0 +1,1 @@
+# msedgedriver-manifest-cache
