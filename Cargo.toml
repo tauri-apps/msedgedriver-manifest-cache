@@ -1,0 +1,12 @@
+[package]
+name = "msedgedriver-manifest-cache"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0 OR MIT"
+
+[dependencies]
+anyhow = "1"
+quick-xml = { version = "0.25", features = ["serialize"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+ureq = "2"
